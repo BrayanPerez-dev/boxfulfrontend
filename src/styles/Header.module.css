@@ -1,0 +1,13 @@
+.header{
+    display:flex;
+    align-items: center;
+    width:100%;
+    height:80px;
+    padding:10px;
+    background-color:#FFF;
+}
+
+.divider{
+    height: 60px;
+    border-width: 2px;
+}

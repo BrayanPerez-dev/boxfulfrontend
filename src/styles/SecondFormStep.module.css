@@ -1,0 +1,138 @@
+.main {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e5e8ee;
+  padding: 25px;
+}
+.label {
+  font-size: 14px;
+  color: #7682a0;
+  font-family: var(--albert-sans-semi-bold);
+}
+
+.bulkContainer {
+  with: 1116px;
+  min-height: 250px;
+  background-color: #f3f5f9;
+  padding: 25px;
+}
+
+.inputSize {
+  width: 120px;
+  height: 60px;
+}
+
+.inputLength {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.inputHeight {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.inputWidth {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputDecription {
+  width: 560px;
+  height: 60px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnAddBulk {
+  gap: 100px;
+  width: 240px;
+  height: 75px;
+  background-color: #eceef1;
+  color: #7682a0;
+  font-family: var(--albert-sans-semi-bold);
+  border: 1px solid #E1E4EC;
+}
+.bulksContainer{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.bulk {
+  with: 1116px;
+  min-height: 150px;
+  padding: 25px;
+  border: 1px solid #3ebf5b;
+  border-radius: 10px;
+}
+
+.trashContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trash{
+    cursor:pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px;
+  margin-top: 100px;
+}
+.btnPrev {
+  gap: 25px;
+  width: 170px;
+  height: 75px;
+  background-color: #eceef1;
+  color: #7682a0;
+  font-family: var(--albert-sans-semi-bold);
+  border: 1px solid #E1E4EC;
+}
+.btnSave {
+  width: 240px;
+  height: 75px;
+  background-color: #4270f9;
+  font-family: var(--albert-sans-semi-bold);
+}
+
+.editableItem{
+  display:flex;
+  flex-direction:column;
+}
+
+.bulkIcon{
+  margin-right:5px;
+}
+@media (max-width: 1000px) {
+  .inputDecription {
+    width: 100% !important;
+  }
+  
+}
+@media (max-width: 700px) {
+ 
+
+  .bulkIcon{
+    display:none;
+  }
+   
+}
+

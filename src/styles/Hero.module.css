@@ -1,0 +1,29 @@
+.main{
+    width:100%;
+    max-width:1200px;
+    margin:25px 0px;
+    padding:10px;
+}
+
+.title{
+  font-size: 30px;
+  color:#4D5568;
+  font-family: var(--albert-sans-bold);
+}
+
+.description{
+    white-space: nowrap;
+    font-size: 18px;
+    color:#7682A0;
+    margin-top:10px;
+    font-family: var(--albert-sans-semi-bold);
+    text-wrap-mode: wrap;
+}
+
+.boldText{
+    font-size: 20px;
+   font-weight: 600;
+   color:#7682A0;
+   font-family: var(--albert-sans-bold);
+
+}

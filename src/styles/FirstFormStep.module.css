@@ -1,0 +1,83 @@
+.main {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e5e8ee;
+  padding: 25px;
+}
+.label {
+  font-size: 14px;
+  color: #7682a0;
+  font-family: var(--albert-sans-semi-bold);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.selectCollectionDirection {
+  width: 740px !important;
+  height: 60px;
+}
+
+.datePicker {
+  width: 360px;
+  height: 60px;
+}
+.input {
+  width: 360px;
+  height: 60px;
+}
+
+.destinationAddress {
+  width: 740px !important;
+  height: 60px;
+}
+
+.select {
+  width: 360px !important;
+  height: 60px;
+}
+
+.indicationsInput {
+  width: 1150px;
+  height: 60px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  gap: 100px;
+  width: 240px;
+  height: 75px;
+  background-color: #4270f9;
+  font-family: var(--albert-sans-semi-bold);
+}
+
+@media (max-width: 1000px) {
+  .destinationAddress {
+    width: 100% !important;
+    min-width:360px;
+  }
+  .indicationsInput{
+    width: 100% !important;
+  }
+
+  .selectCollectionDirection{
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+ 
+
+  .selectCollectionDirection{
+    width: 360px !important;
+  }
+}
+
